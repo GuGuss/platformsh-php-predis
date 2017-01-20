@@ -1,0 +1,6 @@
+redis_ephemeral:
+    type: redis:3.0
+
+redis_persistent:
+    type: "redis-persistent"
+    disk: 1024
